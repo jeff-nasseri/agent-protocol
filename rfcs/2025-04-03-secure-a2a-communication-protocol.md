@@ -9,7 +9,7 @@
 
 ## Summary
 
-This RFC proposes a dedicated secure communication protocol for Agent-to-Agent (A2A) interactions. The protocol enables secure communication between specialized autonomous agents (such as those handling accounting and payment processing) through a dedicated handshake mechanism and encryption framework. This proposal aims to establish a higher-level communication standard beyond traditional HTTP for secure, efficient agent interactions across networks.
+This RFC proposes a dedicated secure communication protocol for Agent-to-Agent (A2A) interactions. The protocol enables secure communication between specialized autonomous agents (such as those handling accounting and payment processing) through a dedicated handshake mechanism and encryption framework. Unlike HTTP which is designed for one-way Client-Server communication, this protocol adopts a bidirectional communication model inspired by P2P networks like Bitcoin and Ethereum, where each agent node acts as both client and server simultaneously. This approach provides more freedom than protocols built on HTTP/WebSocket and is better suited for a network of interconnected autonomous agents. This proposal aims to establish a higher-level communication standard beyond traditional HTTP for secure, efficient agent interactions across networks.
 
 ## Motivation
 
